@@ -9,6 +9,7 @@ int muted_sfx_volume = 0;
 bool muted_sfx = false;
 int difficulty = 5;
 bool has_focus = true;
+bool playing = false;
 
 void Screen::Mute(std::vector<sf::Sound> & sounds)
 {

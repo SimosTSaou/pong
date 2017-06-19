@@ -9,6 +9,7 @@ extern int muted_sfx_volume;
 extern bool muted_sfx;
 extern int difficulty;
 extern bool has_focus;
+extern bool playing;
 
 sf::Font MainMenu::font;
 
